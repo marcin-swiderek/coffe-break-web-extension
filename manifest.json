@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Coffe break",
+	"version": "1.0",
+	"description": "Take care of your PO's mental health",
+	"content_scripts": [
+		{
+			"matches": ["*://*.atlassian.net/*"],
+			"js": ["content-script.js"]
+		}
+	],
+	"permissions": ["*://*.atlassian.net/*"]
+}
