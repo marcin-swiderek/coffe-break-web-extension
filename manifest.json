@@ -8,6 +8,5 @@
 			"matches": ["*://*.atlassian.net/*"],
 			"js": ["content-script.js"]
 		}
-	],
-	"permissions": ["*://*.atlassian.net/*"]
+	]
 }
