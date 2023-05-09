@@ -53,7 +53,7 @@ const handleClick = (e) => {
 			restoreCursor();
 		}, 3000);
 	} else {
-		console.log("chillera");
+		console.log("PO Approves 💪😎");
 	}
 };
 
